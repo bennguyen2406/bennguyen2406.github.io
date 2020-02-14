@@ -20,10 +20,9 @@ audio {
 }
 
 #container {
-	height: 100%;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	width: 100%;
+	height: inherit;
+	max-height: 100%;
 	-webkit-perspective: 1000;
 	-webkit-perspective-origin: 50% 680px;
 }
