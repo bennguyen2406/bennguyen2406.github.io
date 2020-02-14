@@ -158,18 +158,15 @@ function Fly(fid, type, color, sh, sw, x, y, fly_img, name, title) {
 					$(t).html(parent.name + " nói:\n"+'"i za..Huynh à! Huynh đang đè Muội đó, có biết không hả !"')
 					break;
 				case 2: 
-					// $(t).html(parent.name + " nói:\n"+'"Ngươi đã tuyệt tình, cũng đừng trách ta bất nghĩa. Ngày này năm sau sẽ là ngày giỗ của ngươi"')
 					$(t).html(parent.name + " nói:\n"+'"Chung quy 16 năm hẹn ước.. Tình này vẫn trọn theo thời gian."')
 					break;
 				case 3: 
 					$(t).html(parent.name + " nói:\n"+'"Cho dù ngươi chiếm được thân xác ta nhưng mãi cũng không chiếm được tâm hồn ta."')
 					break;
 				case 4: 
-					// $(t).html(parent.name + " nói:\n"+'"Đa tình tự cổ không dư hận... Dĩ hận miên miên vô tuyệt kỳ."')
 					$(t).html(parent.name + " nói:\n"+'"Ta ở dưới đáy Tuyệt tình cốc.."')
 					break;
 				case 5: 
-					// $(t).html(parent.name + " nói:\n"+'"Đè em cũng được nhưng nhớ bo nha a !"')
 					$(t).html(parent.name + " nói:\n"+'"Chung Nam Sơn hậu. Hoạt Tử Nhân mộ. Thần Điêu Hiệp Lữ. Tuyệt tích giang hồ."')
 					break;
 				case 6: 
@@ -524,19 +521,7 @@ var hasswatter = false;
 
 $(document).ready(function() {
 	
-	// if(typeof $.cookie("fly") !== "undefined"){
-		// alert('có cookie');
-		// var ca = document.cookie.split(';');
-	 // 	console.log(ca);
-		// console.log($.cookie("expires"));
-		// return false;	
-	// }else{
-		//alert('ko có');
-		// createCookie();
-		//console.log('fly appear');
-
 		if(navigator.userAgent.match(/msie/i) || navigator.userAgent.match(/mobile|opera m(ob|in)/i)) {
-			// console.log(navigator.userAgent);
 			return false;
 		}
 		
